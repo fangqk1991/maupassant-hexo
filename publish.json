@@ -1,0 +1,19 @@
+{
+    "source_dir": "${__DIR__}/",
+    "ignores": [
+        ".git",
+        ".DS_Store",
+        ".idea",
+        "/publish.*json"
+    ],
+    "remote": {
+        "host": "${REMOTE_HOST}",
+        "target_dir": "${REMOTE_PATH}",
+        "publish_before": [
+        ],
+        "publish_after": [
+            "cd \"${REMOTE_PATH}/../\"",
+            "hexo generate -d"
+        ]
+    }
+}
