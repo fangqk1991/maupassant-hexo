@@ -46,7 +46,8 @@ block content
         else
           .post-content
             != post.content.substring(0, br)
-      p(class='readmore')
+      .readmore
+        .line
         a(href=url_for(post.path))= __('Readmore')
 
   include _partial/paginator.pug
