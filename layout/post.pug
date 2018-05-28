@@ -8,9 +8,9 @@ block content
     h1.post-title= page.title
     .post-meta
       if page.updated > page.date
-        span= page.date.format('ll') + ' | Updated: ' + page.updated.format('ll')
+        span.date= page.date.format(config.date_format) + ' | Updated: ' + page.updated.format(config.date_format)
       else
-        span= page.date.format('ll')
+        span.date= page.date.format(config.date_format)
 
       if page.tags
         span= ' | '

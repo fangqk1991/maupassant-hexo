@@ -206,10 +206,12 @@ div {
         float: left;
         display: inline;
         text-indent: .15em;
-        &:before {
-              font-family: "FontAwesome";
-              content: "\f073";
-              padding-right: 0.3em;
+        .date {
+            &:before {
+                font-family: "FontAwesome";
+                content: "\f073";
+                padding-right: 0.3em;
+            }
         }
         .category {
             &:before {
