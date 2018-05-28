@@ -218,6 +218,14 @@ div {
               padding-right: 0.3em;
             }
         }
+        .tag {
+            margin-right: .5em;
+            &:before {
+                font-family: "FontAwesome";
+                content: "\f0c6";
+                padding-right: 0.3em;
+            }
+        }
         #busuanzi_value_page_pv {
             &:before {
               font-family: "FontAwesome";
@@ -334,17 +342,6 @@ div {
                 &:hover {
                     text-decoration: underline;
                 }
-            }
-        }
-    }
-    .tags {
-        padding-bottom: 1em;
-        a {
-            margin-right: .5em;
-            &:before {
-                font-family: "FontAwesome";
-                content: "\f0c6";
-                padding-right: 0.3em;
             }
         }
     }
