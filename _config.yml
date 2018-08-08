@@ -62,12 +62,12 @@ menu:
   - page: archive
     directory: archives/
     icon: fa-archive
-  - page: diary
-    directory: tags/Diary/
-    icon: fa-book
-#  - page: star
-#    directory: tags/Star/
-#    icon: fa-star
+  # - page: diary
+  #   directory: tags/Diary/
+  #   icon: fa-book
+  - page: star
+    directory: tags/Star/
+    icon: fa-star
   - page: about
     directory: about/
     icon: fa-user
