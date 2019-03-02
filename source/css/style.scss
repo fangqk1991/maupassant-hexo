@@ -342,17 +342,18 @@ div {
             a {
                 color: #01579f;
                 padding-bottom: 2px;
-                word-break: normal;
+                word-break: break-word;
                 &:hover {
                     text-decoration: underline;
                 }
             }
-            //li, a {
-            //    text-align: left;
-            //    -webkit-hyphens: auto;
-            //    -ms-hyphens: auto;
-            //    hyphens: auto;
-            //}
+        }
+        li, a, p {
+            text-align: left;
+            -webkit-hyphens: auto;
+            -ms-hyphens: auto;
+            hyphens: auto;
+            word-break: break-word;
         }
     }
 }
