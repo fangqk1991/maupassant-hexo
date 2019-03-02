@@ -291,6 +291,7 @@ div {
         }
         p {
             margin: 0 0 .6em;
+            text-align: left;
             code {
                 //display: inline-block;
                 //margin: 0 5px;
@@ -346,6 +347,12 @@ div {
                     text-decoration: underline;
                 }
             }
+            //li, a {
+            //    text-align: left;
+            //    -webkit-hyphens: auto;
+            //    -ms-hyphens: auto;
+            //    hyphens: auto;
+            //}
         }
     }
 }
