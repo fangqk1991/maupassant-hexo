@@ -1,26 +1,28 @@
-reading_label: Reading articles in %s
-blog: Blog
-albums: Albums
-categories: Categories
-tags: Tags
-archive: Archive
-links: Links
-about: About
-recent: Recent
-recent_updated: Recent Updated
-next: Next
-previous: Previous
-notitle: No Title
-blogroll: Links
-history: History
-rss: RSS
-guestbook: Guestbook
-home: Home
-recent_comments: Recent Comments
-Readmore: Read More
-belongsto: Categorized in
-contents: Contents
-shareto: Share
-Discuss: Discuss
-Comment: Comment
-Hits: Hits
+reading_label: 正在查看 %s 下的文章
+blog: 博客
+albums: 相册
+categories: 分类
+tags: 标签
+archive: 归档
+links: 链接
+about: 关于
+star: 收藏
+diary: 随笔
+recent: 最近文章
+recent_updated: 最近更新
+next: 下一页
+previous: 上一页
+notitle: 无题
+blogroll: 友情链接
+history: 历史
+rss: 订阅
+guestbook: 留言
+home: 首页
+recent_comments: 最近评论
+Readmore: 阅读全文
+belongsto: 分类于
+contents: 文章目录
+shareto: 分享
+Discuss: 条参与
+Comment: 条评论
+Hits: 阅读
